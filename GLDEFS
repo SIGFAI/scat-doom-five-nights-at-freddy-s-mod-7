@@ -1,0 +1,92 @@
+// Dynamic lights: lamps, explosions, glowing notes, sparks, the TNT fuse and the Professor's laser glasses.
+
+pointlight SIC_LAMP
+{
+	color 1.0 0.9 0.55
+	size 110
+	offset 0 78 0
+}
+
+flickerlight SIC_BOOM
+{
+	color 1.0 0.62 0.2
+	size 180
+	secondarySize 220
+	chance 0.5
+}
+
+pointlight SIC_SMOKEGLOW
+{
+	color 0.5 0.32 0.12
+	size 90
+}
+
+pointlight SIC_NOTE
+{
+	color 0.2 0.9 1.0
+	size 28
+}
+
+pointlight SIC_SPARK
+{
+	color 1.0 0.9 0.4
+	size 48
+}
+
+pointlight SIC_FUSE
+{
+	color 1.0 0.5 0.2
+	size 36
+}
+
+pointlight SIC_EYES
+{
+	color 0.2 1.0 1.0
+	size 72
+	offset 0 90 0
+}
+
+pointlight SIC_TNTFLASH
+{
+	color 1.0 1.0 0.85
+	size 64
+	offset 0 16 0
+}
+
+object SICLampPost
+{
+	frame MCLP { light SIC_LAMP }
+}
+
+object SICBoom
+{
+	frame MCXPA { light SIC_BOOM }
+	frame MCXPB { light SIC_BOOM }
+	frame MCXPC { light SIC_BOOM }
+	frame MCXPD { light SIC_SMOKEGLOW }
+}
+
+object SICNote
+{
+	frame NOTE { light SIC_NOTE }
+}
+
+object SICSparkLight
+{
+	frame DEBR { light SIC_SPARK }
+}
+
+object SICTNTShot
+{
+	frame TNTP { light SIC_FUSE }
+}
+
+object SICTNTBlock
+{
+	frame TNTBB { light SIC_TNTFLASH }
+}
+
+object ProfessorWhiskers
+{
+	frame WHSKC { light SIC_EYES }
+}

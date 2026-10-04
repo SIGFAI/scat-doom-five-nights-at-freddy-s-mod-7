@@ -1,0 +1,30 @@
+GameInfo
+{
+	AddEventHandlers = "SICNight"
+}
+
+DoomEdNums
+{
+	23001 = BrickBear
+	23002 = BlockBunny
+	23003 = CluckBlock
+	23004 = Foxel
+	23005 = ProfessorWhiskers
+	23010 = SICPartyTable
+	23011 = SICTree
+	23012 = SICTNTBlock
+	23013 = SICSecurityDesk
+	23014 = SICLampPost
+	23015 = SICChest
+	23016 = SICPizzaSlice
+	23017 = SICGrassBlock
+}
+
+map MAP01 "Whisker's Block Pizza"
+{
+	levelnum = 1
+	next = "MAP02"
+	sky1 = "MCSKY", 0
+	music = "sounds/night_music.ogg"
+	par = 300
+}

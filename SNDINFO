@@ -1,0 +1,66 @@
+// SuperIntelligent Cat - sounds (AI-generated with fal ElevenLabs, see gen/credits_sounds.md)
+
+// Animatronics (shared)
+anim/sight      sounds/anim_sight.ogg
+anim/active     sounds/anim_active.ogg
+anim/pain       sounds/anim_pain.ogg
+anim/death      sounds/anim_death.ogg
+$limit anim/active 2
+
+// Brick Bear
+bear/laugh      sounds/bear_laugh.ogg
+
+// Pizza projectile
+pizza/throw     sounds/throw.ogg
+pizza/splat     sounds/splat.ogg
+
+// Block Bunny, Cluck-a-Block, Foxel
+bunny/riff      sounds/bunny_riff.ogg
+chick/screech   sounds/chick_screech.ogg
+fox/run         sounds/fox_run.ogg
+
+// Kittens
+kitten/meow     sounds/kitten_meow.ogg
+kitten/meow2    sounds/kitten_meow2.ogg
+$random kitten/any { kitten/meow kitten/meow2 }
+
+// Jumpscare
+jump/scare      sounds/jumpscare.ogg
+$attenuation jump/scare 0
+
+// TNT
+tnt/fire        sounds/tnt_fire.ogg
+tnt/boom        sounds/tnt_boom.ogg
+
+// Clock
+clock/hour      sounds/hour_bell.ogg
+clock/6am       sounds/six_am.ogg
+$attenuation clock/hour 0
+$attenuation clock/6am 0
+
+// Power
+power/out       sounds/power_out.ogg
+power/musicbox  sounds/musicbox.ogg
+power/tick      sounds/power_tick.ogg
+$attenuation power/out 0
+$attenuation power/musicbox 0
+
+// Professor Whiskers (boss)
+boss/sight      sounds/boss_sight.ogg
+boss/laser      sounds/boss_laser.ogg
+boss/pain       sounds/boss_pain.ogg
+boss/death      sounds/boss_death.ogg
+boss/line       sounds/boss_line.ogg
+$attenuation boss/line 0
+
+// Office / cameras
+cam/static      sounds/static.ogg
+office/fan      sounds/office_fan.ogg
+$volume office/fan 0.5
+
+// Phone message
+phone/call      sounds/phone_call.ogg
+$attenuation phone/call 0
+
+// Music
+music/night     sounds/night_music.ogg

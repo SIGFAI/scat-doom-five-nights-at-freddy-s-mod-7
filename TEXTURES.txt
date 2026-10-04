@@ -1,0 +1,278 @@
+// SuperIntelligent Cat: Minecraft blocks from Minetest Game (CC BY-SA 3.0), see gen/credits_textures.md
+// 16x16 textures upscaled x4 (nearest); XScale/YScale 2 so one block (64 px) covers 32x32 world units.
+
+// cobblestone
+Texture "MCCOBBL", 64, 64
+{
+	XScale 2.0
+	YScale 2.0
+	Patch "patches/mccobbl.png", 0, 0
+}
+
+// stone
+Texture "MCSTONE", 64, 64
+{
+	XScale 2.0
+	YScale 2.0
+	Patch "patches/mcstone.png", 0, 0
+}
+
+// stone bricks
+Texture "MCSTBRK", 64, 64
+{
+	XScale 2.0
+	YScale 2.0
+	Patch "patches/mcstbrk.png", 0, 0
+}
+
+// oak planks
+Texture "MCPLANK", 64, 64
+{
+	XScale 2.0
+	YScale 2.0
+	Patch "patches/mcplank.png", 0, 0
+}
+
+// oak log side (bark)
+Texture "MCLOG", 64, 64
+{
+	XScale 2.0
+	YScale 2.0
+	Patch "patches/mclog.png", 0, 0
+}
+
+// oak log top (rings)
+Texture "MCLOGT", 64, 64
+{
+	XScale 2.0
+	YScale 2.0
+	Patch "patches/mclogt.png", 0, 0
+}
+
+// red bricks
+Texture "MCBRICK", 64, 64
+{
+	XScale 2.0
+	YScale 2.0
+	Patch "patches/mcbrick.png", 0, 0
+}
+
+// grass block side: dirt with green top fringe
+Texture "MCGRASS", 64, 64
+{
+	XScale 2.0
+	YScale 2.0
+	Patch "patches/mcgrass.png", 0, 0
+}
+
+// grass top
+Texture "MCGRASST", 64, 64
+{
+	XScale 2.0
+	YScale 2.0
+	Patch "patches/mcgrasst.png", 0, 0
+}
+
+// dirt
+Texture "MCDIRT", 64, 64
+{
+	XScale 2.0
+	YScale 2.0
+	Patch "patches/mcdirt.png", 0, 0
+}
+
+// sand
+Texture "MCSAND", 64, 64
+{
+	XScale 2.0
+	YScale 2.0
+	Patch "patches/mcsand.png", 0, 0
+}
+
+// furnace front
+Texture "MCFURN", 64, 64
+{
+	XScale 2.0
+	YScale 2.0
+	Patch "patches/mcfurn.png", 0, 0
+}
+
+// bookshelf
+Texture "MCBOOK", 64, 64
+{
+	XScale 2.0
+	YScale 2.0
+	Patch "patches/mcbook.png", 0, 0
+}
+
+// steel/iron block
+Texture "MCIRON", 64, 64
+{
+	XScale 2.0
+	YScale 2.0
+	Patch "patches/mciron.png", 0, 0
+}
+
+// lamp block (mese lamp, pale yellow)
+Texture "MCGLOW", 64, 64
+{
+	XScale 2.0
+	YScale 2.0
+	Patch "patches/mcglow.png", 0, 0
+}
+
+// glass: light frame, transparent middle (use as a 2-sided midtexture)
+Texture "MCGLASS", 64, 64
+{
+	XScale 2.0
+	YScale 2.0
+	Patch "patches/mcglass.png", 0, 0
+}
+
+// water (first frame of the animated water source)
+Texture "MCWATER", 64, 64
+{
+	XScale 2.0
+	YScale 2.0
+	Patch "patches/mcwater.png", 0, 0
+}
+
+// obsidian
+Texture "MCOBSID", 64, 64
+{
+	XScale 2.0
+	YScale 2.0
+	Patch "patches/mcobsid.png", 0, 0
+}
+
+// oak leaves, opaque (holes filled with the darkest leaf green)
+Texture "MCLEAF", 64, 64
+{
+	XScale 2.0
+	YScale 2.0
+	Patch "patches/mcleaf.png", 0, 0
+}
+
+// red wool
+Texture "MCWOOLR", 64, 64
+{
+	XScale 2.0
+	YScale 2.0
+	Patch "patches/mcwoolr.png", 0, 0
+}
+
+// purple wool
+Texture "MCWOOLP", 64, 64
+{
+	XScale 2.0
+	YScale 2.0
+	Patch "patches/mcwoolp.png", 0, 0
+}
+
+// white wool
+Texture "MCWOOLW", 64, 64
+{
+	XScale 2.0
+	YScale 2.0
+	Patch "patches/mcwoolw.png", 0, 0
+}
+
+// black wool
+Texture "MCWOOLK", 64, 64
+{
+	XScale 2.0
+	YScale 2.0
+	Patch "patches/mcwoolk.png", 0, 0
+}
+
+// yellow wool
+Texture "MCWOOLY", 64, 64
+{
+	XScale 2.0
+	YScale 2.0
+	Patch "patches/mcwooly.png", 0, 0
+}
+
+// blue wool
+Texture "MCWOOLB", 64, 64
+{
+	XScale 2.0
+	YScale 2.0
+	Patch "patches/mcwoolb.png", 0, 0
+}
+
+// TNT side
+Texture "MCTNT", 64, 64
+{
+	XScale 2.0
+	YScale 2.0
+	Patch "patches/mctnt.png", 0, 0
+}
+
+// night window: glass frame over obsidian, fully opaque (for one-sided walls)
+Texture "MCGLASSN", 64, 64
+{
+	XScale 2.0
+	YScale 2.0
+	Patch "patches/mcglassn.png", 0, 0
+}
+
+// pizzeria checker floor: 2x2 black/white wool blocks (32-unit squares)
+Texture "MCCHECK", 128, 128
+{
+	XScale 2.0
+	YScale 2.0
+	Patch "patches/mccheck.png", 0, 0
+}
+
+// small checker floor: 4x4 black/white wool cells (16-unit squares)
+Texture "MCCHECK2", 128, 128
+{
+	XScale 2.0
+	YScale 2.0
+	Patch "patches/mccheck2.png", 0, 0
+}
+
+// party-room wall 2x6 blocks: plank base, black/white checker band, plank, red/yellow wool bunting, grimy plank top
+Texture "MCPARTY", 768, 384
+{
+	XScale 2.0
+	YScale 2.0
+	Patch "patches/mcparty.png", 0, 0
+	Patch "patches/mcparty.png", 128, 0
+	Patch "patches/mcparty.png", 256, 0
+	Patch "patches/mcparty.png", 384, 0
+	Patch "patches/mcparty.png", 512, 0
+	Patch "patches/mcparty.png", 640, 0
+	Patch "patches/mcposter.png", 338, 112
+}
+
+// red stage curtain: red wool with a dark fold stripe per block
+Texture "MCCURTN", 64, 64
+{
+	XScale 2.0
+	YScale 2.0
+	Patch "patches/mccurtn.png", 0, 0
+}
+
+// purple pirate-cove curtain: purple wool with a dark fold stripe per block
+Texture "MCCURTP", 64, 64
+{
+	XScale 2.0
+	YScale 2.0
+	Patch "patches/mccurtp.png", 0, 0
+}
+
+// Minecraft-style night sky (generated, mirrored so it wraps)
+Texture "MCSKY", 2048, 448
+{
+	Patch "patches/mcsky.png", 0, 0
+}
+
+// The CELEBRATE! poster on its own (generated), for single walls
+Texture "MCPOSTR", 92, 126
+{
+	XScale 2.0
+	YScale 2.0
+	Patch "patches/mcposter.png", 0, 0
+}

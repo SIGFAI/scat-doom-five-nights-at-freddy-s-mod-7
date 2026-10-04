@@ -1,0 +1,3 @@
+// Length of one night hour in tics (35 = 1 s), and the time between two animatronic waves.
+server int sic_hourtics = 1575;
+server int sic_wavetics = 420;
