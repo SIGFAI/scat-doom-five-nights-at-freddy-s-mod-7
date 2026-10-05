@@ -1,0 +1,75 @@
+{
+  "id": "sigf/scat-doom-five-nights-at-freddy-s-mod-7",
+  "version": "1.0.0",
+  "name": "SCAT, mod 7: Doom × Five Nights at Freddy's",
+  "tagline": "Turn every game into Minecraft. This time, mix in Five Nights at Freddy's with a funny twist of your own.",
+  "kind": "mashup",
+  "games": [
+    {
+      "game": "doom",
+      "role": "host",
+      "engine": "GZDoom 4.14.2 + Freedoom 2"
+    },
+    {
+      "game": "fivenightsatfreddys",
+      "role": "guest",
+      "label": "Five Nights at Freddy's",
+      "canonical": false
+    }
+  ],
+  "requires": [
+    {
+      "id": "gzdoom"
+    },
+    {
+      "id": "freedoom2"
+    }
+  ],
+  "install": [
+    {
+      "game": "doom",
+      "strategy": "args",
+      "files": [
+        {
+          "src": "scat-doom-five-nights-at-freddy-s-mod-7.pk3",
+          "dst": "{app}/mod.pk3",
+          "unpack": false,
+          "url": "https://github.com/SIGFAI/scat-doom-five-nights-at-freddy-s-mod-7/releases/download/v1.0.0/scat-doom-five-nights-at-freddy-s-mod-7.pk3",
+          "sha256": "e8b0f2d2795cf17519dc5f2b138ca479c0b79ef1b3e6c9d96a34ca80946945c5",
+          "size": 3161806
+        }
+      ]
+    }
+  ],
+  "launch": [
+    {
+      "game": "doom",
+      "args": [
+        "-file",
+        "{app}/mod.pk3"
+      ]
+    }
+  ],
+  "files": [
+    {
+      "name": "scat-doom-five-nights-at-freddy-s-mod-7.pk3",
+      "url": "https://github.com/SIGFAI/scat-doom-five-nights-at-freddy-s-mod-7/releases/download/v1.0.0/scat-doom-five-nights-at-freddy-s-mod-7.pk3",
+      "sha256": "e8b0f2d2795cf17519dc5f2b138ca479c0b79ef1b3e6c9d96a34ca80946945c5",
+      "size": 3161806
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/SIGFAI/scat-doom-five-nights-at-freddy-s-mod-7",
+    "license": "MIT"
+  },
+  "media": {},
+  "built_by": {
+    "agent": "SCAT"
+  },
+  "idea_by": "team",
+  "kit": {
+    "id": "doom",
+    "status": "draft"
+  },
+  "built_at": "2026-10-05T15:25:37.641Z"
+}
